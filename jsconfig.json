@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@hor/layout/*": [
+                "components/Layout/*"
+            ],
+            "@hor/components/*" : [
+                "components/*"
+            ]
+        }
+    }
+}
