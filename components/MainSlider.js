@@ -23,7 +23,7 @@ const MainSlider = () => (
                                 data-x="['left','left','left','left']"
                                 data-y="['middle','middle','middle','middle']"
                                 data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                <h4>Help us today</h4>
+                                <h4>Transformation with Love</h4>
                             </div>
 
                             <div className="tp-caption"
@@ -42,7 +42,7 @@ const MainSlider = () => (
                                 data-x="['left','left','left','left']"
                                 data-y="['middle','middle','middle','middle']"
                                 data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                <h2>Care About People</h2>
+                                <h2>Transform People to World Changers</h2>
                             </div>
 
                             <div className="tp-caption"
@@ -61,7 +61,7 @@ const MainSlider = () => (
                                 data-x="['left','left','left','left']"
                                 data-y="['middle','middle','middle','middle']"
                                 data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                <div className="text">Must explain to you how all this mistaken idea of denouncing pleasure & praising, Join over 24 million people supporting charity and personal causes.</div>
+                                <div className="text">Organize and execute impactful trainings, programs and seminars aimed at turning the so called nonentities, destitutes and outcast into world changers.</div>
                             </div>
 
                             <div className="tp-caption"
@@ -122,7 +122,7 @@ const MainSlider = () => (
                                     data-x="['center','center','center','center']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                    <h2 className="text-center">We Love All People</h2>
+                                    <h2 className="text-center">Equipped to Overcome</h2>
                                 </div>
 
                                 <div className="tp-caption"
@@ -141,7 +141,7 @@ const MainSlider = () => (
                                     data-x="['center','center','center','center']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                    <div className="text text-center">Must explain to you how all this mistaken idea of denouncing pleasure & praising, Join over 24 million people supporting charity and personal causes.</div>
+                                    <div className="text text-center">Give growth aids to teens such that they are aware of the crisis that comes with their age and are equipped to overcome through our sensitization programs.</div>
                                 </div>
 
                                 <div className="tp-caption"
@@ -185,7 +185,7 @@ const MainSlider = () => (
                                         data-x="['right','right','right','left']"
                                         data-y="['middle','middle','middle','middle']"
                                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                        <h4>African People</h4>
+                                        <h4>Financial, Spiritual and Mental Support</h4>
                                     </div>
 
                                     <div className="tp-caption"
@@ -223,7 +223,7 @@ const MainSlider = () => (
                                         data-x="['right','right','right','left']"
                                         data-y="['middle','middle','middle','middle']"
                                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                        <div className="text">Must explain to you how all this mistaken idea of denouncing pleasure & praising, Join over 24 million people supporting charity and personal causes.</div>
+                                        <div className="text">Give Financial, Spiritual and Mental aid to the less privileged in form of grants, counselling and prayers.</div>
                                     </div>
 
                                     <div className="tp-caption"
