@@ -1,17 +1,18 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Layout from 'components/layout';
+import { PageTitle } from '@hor/components/shared';
+import { FunFactsSection, TeamSection, VolunteerAction, WhoWeAreSection } from '@hor/components/sections/about';
 
 
-const AboutPage = () => (<Layout>
-    <Head>
-        <title>About Us</title>
-    </Head>
-    <h1>Welcom to About Page</h1>
-    <Link href="/">
-        <a>Back to home</a>
-    </Link>
-    </Layout>
+const AboutPage = () => (
+    <>
+        <PageTitle titleHead="About Us" bgImage="13.jpg" />
+
+        <VolunteerAction />
+        <TeamSection />
+        <FunFactsSection />
+        <WhoWeAreSection />
+    </>
 )
 
 export default AboutPage;
