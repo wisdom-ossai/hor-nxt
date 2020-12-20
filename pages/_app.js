@@ -1,8 +1,9 @@
 // import App from 'next/app'
 
 import { ThemeProvider } from "@emotion/react"
-import GlobalStyles from "../components/GlobalStyles/GlobalStyles"
-import Header from "../components/Header"
+import Footer from "@hor/components/Footer"
+import GlobalStyles from "@hor/components/GlobalStyles/GlobalStyles"
+import Header from "@hor/components/Header"
 
 const theme = {
     color: {
@@ -16,7 +17,7 @@ function MyApp({ Component, pageProps }) {
                 <GlobalStyles />
             <Header />
             <Component {...pageProps} />
-
+            <Footer />
             </ThemeProvider>
             </>)
 }
