@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import Link from "next/link";
 
 const Header = () => (
     <header className="main-header">
@@ -7,7 +8,7 @@ const Header = () => (
                 <div className="inner-container clearfix">
                     <div className="top-left">
                         <ul className="contact-list clearfix">
-                            <li><a href="#">houseofrestoration3@gmail.com</a></li>
+                            <li><a href="#">hello@houseofrestoration.com</a></li>
                             <li>+234 816 830 5869,&nbsp;&nbsp; +234 806 279 1487</li>
                         </ul>
                     </div>
@@ -46,12 +47,12 @@ const Header = () => (
 
                             <div className="navbar-collapse collapse clearfix">
                                 <ul className="navigation clearfix">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="contact.html">About</a></li>
-                                <li><a href="contact.html">Causes</a></li>
-                                <li><a href="contact.html">Events</a></li>
-                                <li><a href="contact.html">Services</a></li>
-                                <li><a href="contact.html">Team</a></li>
+                                <li><Link href="/"><a>Home</a></Link></li>
+                                <li><Link href="/about"><a>About</a></Link></li>
+                                <li><Link href="/causes"><a>Causes</a></Link></li>
+                                <li><Link href="/events"><a>Events</a></Link></li>
+                                <li><Link href="/services"><a>Services</a></Link></li>
+                                <li><Link href="/team"><a>Team</a></Link></li>
                                 </ul>
                             </div>
                         </nav>
@@ -76,12 +77,12 @@ const Header = () => (
                     <nav className="main-menu">
                             <div className="navbar-collapse collapse clearfix">
                                 <ul className="navigation clearfix">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="contact.html">About</a></li>
-                                    <li><a href="contact.html">Causes</a></li>
-                                    <li><a href="contact.html">Events</a></li>
-                                    <li><a href="contact.html">Services</a></li>
-                                    <li><a href="contact.html">Team</a></li>
+                                <li><Link href="/"><a>Home</a></Link></li>
+                                <li><Link href="/about"><a>About</a></Link></li>
+                                <li><Link href="/causes"><a>Causes</a></Link></li>
+                                <li><Link href="/events"><a>Events</a></Link></li>
+                                <li><Link href="/services"><a>Services</a></Link></li>
+                                <li><Link href="/team"><a>Team</a></Link></li>
                                 </ul>
                             </div>
                         </nav>
