@@ -575,7 +575,7 @@ img{
 .main-header .header-upper{
     position: relative;
     background-repeat: repeat;
-    padding-bottom: 45px;
+    padding-bottom: 28px;
 }
 
 .main-header .upper-box{
@@ -1152,7 +1152,9 @@ img{
 }
 
 .sticky-header .logo{
-	padding:10px 0px;
+	/* padding:10px 0px; */
+	background: currentColor;
+	margin-top: 3px;
 }
 
 .fixed-header .sticky-header{
