@@ -1,6 +1,4 @@
-import styled from "@emotion/styled";
 import Link from "next/link";
-import Image from 'next/image'
 
 const Header = () => (
     <header className="main-header">
@@ -33,12 +31,12 @@ const Header = () => (
         <div className="header-upper" style={{ background: '#e6e5e53b'}}>
             <div className="auto-container">
                 <div className="logo-box">
-                    <div className="logo"><a href="index-2.html"><Image
+                    <div className="logo"><Link href="/"><a><img
                         src="/images/logo.png"
-                        alt="Picture of the author"
+                        alt="House of Restoration"
                         width={100}
                         height={80}
-                    /></a></div>
+                    /></a></Link></div>
                     </div>
 
                     <div className="nav-outer clearfix">

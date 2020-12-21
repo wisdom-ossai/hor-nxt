@@ -1,6 +1,3 @@
-
-import Image from 'next/image'
-
 const MainSlider = () => (
     <section className="main-slider">
         <div className="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">

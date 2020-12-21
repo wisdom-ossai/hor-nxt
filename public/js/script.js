@@ -481,7 +481,7 @@
 	if($('.dial').length){
 	   $('.dial').appear(function(){
           var elm = $(this);
-          var color = elm.attr('data-fgColor');  
+          var color = elm.attr('data-fgcolor');  
           var perc = elm.attr('value');  
  
           elm.knob({ 

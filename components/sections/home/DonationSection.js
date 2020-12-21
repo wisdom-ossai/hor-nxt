@@ -14,7 +14,7 @@ const DonationSection = () => (
                                 <div className="progress-block col-md-4 col-sm-4 col-xs-12">
                                     <div className="inner-box">
                                         <div className="graph-outer">
-                                            <input type="text" className="dial" data-fgColor="#ffffff" data-bgColor="#ba3b2a" data-width="125" data-height="125" data-linecap="normal" value="90" />
+                                            <input type="text" className="dial" data-fgcolor="#ffffff" data-bgcolor="#ba3b2a" data-width="125" data-height="125" data-linecap="normal" value="90" />
                                                 <div className="inner-text count-box"><span className="count-text" data-stop="90" data-speed="2000"></span>Food</div>
                                     </div>
                                         </div>
@@ -23,7 +23,7 @@ const DonationSection = () => (
                                     <div className="progress-block col-md-4 col-sm-4 col-xs-12">
                                         <div className="inner-box">
                                             <div className="graph-outer">
-                                                <input type="text" className="dial" data-fgColor="#ffffff" data-bgColor="#ba3b2a" data-width="125" data-height="125" data-linecap="normal" value="75" />
+                                                <input type="text" className="dial" data-fgcolor="#ffffff" data-bgcolor="#ba3b2a" data-width="125" data-height="125" data-linecap="normal" value="75" />
                                                     <div className="inner-text count-box"><span className="count-text" data-stop="75" data-speed="2000"></span>Cloth</div>
                                     </div>
                                             </div>
@@ -32,7 +32,7 @@ const DonationSection = () => (
                                         <div className="progress-block col-md-4 col-sm-4 col-xs-12">
                                             <div className="inner-box">
                                                 <div className="graph-outer">
-                                                    <input type="text" className="dial" data-fgColor="#ffffff" data-bgColor="#ba3b2a" data-width="125" data-height="125" data-linecap="normal" value="60" />
+                                                    <input type="text" className="dial" data-fgcolor="#ffffff" data-bgcolor="#ba3b2a" data-width="125" data-height="125" data-linecap="normal" value="60" />
                                                         <div className="inner-text count-box"><span className="count-text" data-stop="60" data-speed="2000"></span>Other</div>
                                     </div>
                                                 </div>
