@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import NavListItem from "./shared/NavListItem";
+
 const Header = () => (
     <header className="main-header">
         <div className="header-top">
@@ -51,13 +53,13 @@ const Header = () => (
 
                             <div className="navbar-collapse collapse clearfix">
                                 <ul className="navigation clearfix">
-                                <li><Link href="/"><a>Home</a></Link></li>
-                                <li><Link href="/about"><a>About</a></Link></li>
-                                <li><Link href="/causes"><a>Causes</a></Link></li>
-                                <li><Link href="/events"><a>Events</a></Link></li>
-                                <li><Link href="/services"><a>Services</a></Link></li>
-                                <li><Link href="/team"><a>Team</a></Link></li>
-                                <li><Link href="/contact-us"><a>Contact Us</a></Link></li>
+                                <NavListItem href="/"><a>Home</a></NavListItem>
+                                <NavListItem href="/about"><a>About</a></NavListItem>
+                                <NavListItem href="/causes"><a>Causes</a></NavListItem>
+                                <NavListItem href="/events"><a>Events</a></NavListItem>
+                                <NavListItem href="/services"><a>Services</a></NavListItem>
+                                <NavListItem href="/team"><a>Team</a></NavListItem>
+                                <NavListItem href="/contact-us"><a>Contact Us</a></NavListItem>
                                 </ul>
                             </div>
                         </nav>
@@ -82,13 +84,13 @@ const Header = () => (
                     <nav className="main-menu">
                         <div className="navbar-collapse collapse clearfix">
                             <ul className="navigation clearfix">
-                            <li><Link href="/"><a>Home</a></Link></li>
-                            <li><Link href="/about"><a>About</a></Link></li>
-                            <li><Link href="/causes"><a>Causes</a></Link></li>
-                            <li><Link href="/events"><a>Events</a></Link></li>
-                            <li><Link href="/services"><a>Services</a></Link></li>
-                            <li><Link href="/team"><a>Team</a></Link></li>
-                            <li><Link href="/contact-us"><a>Contact Us</a></Link></li>
+                                <NavListItem href="/"><a>Home</a></NavListItem>
+                                <NavListItem href="/about"><a>About</a></NavListItem>
+                                <NavListItem href="/causes"><a>Causes</a></NavListItem>
+                                <NavListItem href="/events"><a>Events</a></NavListItem>
+                                <NavListItem href="/services"><a>Services</a></NavListItem>
+                                <NavListItem href="/team"><a>Team</a></NavListItem>
+                                <NavListItem href="/contact-us"><a>Contact Us</a></NavListItem>
                             </ul>
                         </div>
                     </nav>
