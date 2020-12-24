@@ -7,7 +7,7 @@ const Header = () => (
                 <div className="inner-container clearfix">
                     <div className="top-left">
                         <ul className="contact-list clearfix">
-                            <li><a href="#">hello@houseofrestoration.com</a></li>
+                            <li><a href="#">info@houseofrestoration.com</a></li>
                             <li>+234 816 830 5869,&nbsp;&nbsp; +234 806 279 1487</li>
                         </ul>
                     </div>
@@ -57,6 +57,7 @@ const Header = () => (
                                 <li><Link href="/events"><a>Events</a></Link></li>
                                 <li><Link href="/services"><a>Services</a></Link></li>
                                 <li><Link href="/team"><a>Team</a></Link></li>
+                                <li><Link href="/contact-us"><a>Contact Us</a></Link></li>
                                 </ul>
                             </div>
                         </nav>
@@ -75,24 +76,25 @@ const Header = () => (
         <div className="sticky-header">
             <div className="auto-container clearfix">
                 <div className="logo pull-left">
-                    <a href="index-2.html" title=""><img src="images/logo.png" alt="" title="" width="80" /></a>
+                    <Link href="/"><a title=""><img src="images/logo.png" alt="" title="" width="80" /></a></Link>
                 </div>
                 <div className="pull-right">
                     <nav className="main-menu">
-                            <div className="navbar-collapse collapse clearfix">
-                                <ul className="navigation clearfix">
-                                <li><Link href="/"><a>Home</a></Link></li>
-                                <li><Link href="/about"><a>About</a></Link></li>
-                                <li><Link href="/causes"><a>Causes</a></Link></li>
-                                <li><Link href="/events"><a>Events</a></Link></li>
-                                <li><Link href="/services"><a>Services</a></Link></li>
-                                <li><Link href="/team"><a>Team</a></Link></li>
-                                </ul>
-                            </div>
-                        </nav>
-                </div>
+                        <div className="navbar-collapse collapse clearfix">
+                            <ul className="navigation clearfix">
+                            <li><Link href="/"><a>Home</a></Link></li>
+                            <li><Link href="/about"><a>About</a></Link></li>
+                            <li><Link href="/causes"><a>Causes</a></Link></li>
+                            <li><Link href="/events"><a>Events</a></Link></li>
+                            <li><Link href="/services"><a>Services</a></Link></li>
+                            <li><Link href="/team"><a>Team</a></Link></li>
+                            <li><Link href="/contact-us"><a>Contact Us</a></Link></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
+        </div>
     </header>
 );
 

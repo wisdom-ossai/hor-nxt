@@ -1,3 +1,4 @@
+import Link from "next/link";
 const MainSlider = () => (
     <section className="main-slider">
         <div className="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
@@ -79,8 +80,8 @@ const MainSlider = () => (
                                 data-x="['left','left','left','left']"
                                 data-y="['middle','middle','middle','middle']"
                                 data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                <a href="about.html" className="theme-btn btn-style-one"><span>Read More</span></a>
-                                <a href="content.html" className="theme-btn btn-style-two"><span>Contact Us</span></a>
+                            <Link href="/about"><a className="theme-btn btn-style-one"><span>Read More</span></a></Link>
+                            <Link href="/contact-us"><a className="theme-btn btn-style-two"><span>Contact Us</span></a></Link>
                             </div>
                     </li>
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-8.jpg" data-title="Slide Title" data-transition="parallaxvertical">
@@ -160,8 +161,8 @@ const MainSlider = () => (
                                     data-y="['middle','middle','middle','middle']"
                                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
                                     <div className="text-center">
-                                        <a href="about.html" className="theme-btn btn-style-one"><span>Read More</span></a>
-                                        <a href="content.html" className="theme-btn btn-style-two"><span>Contact Us</span></a>
+                                <Link href="/about"><a className="theme-btn btn-style-one"><span>Read More</span></a></Link>
+                                <Link href="/contact-us"><a className="theme-btn btn-style-two"><span>Contact Us</span></a></Link>
                                     </div>
                                 </div>
                     </li>
@@ -241,8 +242,10 @@ const MainSlider = () => (
                                         data-x="['right','right','right','left']"
                                         data-y="['middle','middle','middle','middle']"
                                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                                        <a href="about.html" className="theme-btn btn-style-one"><span>Read More</span></a>
-                                        <a href="content.html" className="theme-btn btn-style-two"><span>Contact Us</span></a>
+                            <Link href="/about"><a className="theme-btn btn-style-one"><span>Read More</span></a></Link>
+                            <Link href="/contact-us"><a className="theme-btn btn-style-two"><span>Contact Us</span></a></Link>
+                                        
+                                        
                                     </div>
                     </li>
                 </ul>
