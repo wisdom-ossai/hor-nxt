@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { useRouter } from 'next/router'
 
 import NavListItem from "./shared/NavListItem";
 
-const Header = () => (
+const Header = () => {
+    const router = useRouter()
+    return (
     <header className="main-header">
         <div className="header-top">
             <div className="auto-container">
@@ -33,12 +36,18 @@ const Header = () => (
         <div className="header-upper" style={{ background: '#e6e5e53b'}}>
             <div className="auto-container">
                 <div className="logo-box">
-                    <div className="logo"><Link href="/"><a><img
+                    <div className="logo"><a href="/"><img
                         src="/images/logo.png"
                         alt="House of Restoration"
                         width={100}
                         height={80}
-                    /></a></Link></div>
+                    /></a></div>
+                    {/* <div className="logo"><Link href="/"><a><img
+                        src="/images/logo.png"
+                        alt="House of Restoration"
+                        width={100}
+                        height={80}
+                    /></a></Link></div> */}
                     </div>
 
                     <div className="nav-outer clearfix">
@@ -52,8 +61,9 @@ const Header = () => (
                             </div>
 
                             <div className="navbar-collapse collapse clearfix">
-                                <ul className="navigation clearfix">
-                                <NavListItem href="/"><a>Home</a></NavListItem>
+                            <ul className="navigation clearfix">
+                                <li className={router.pathname === '/' ? 'current' : ''}><a href="/">Home</a></li>
+                                {/* <NavListItem href="/"><a>Home</a></NavListItem> */}
                                 <NavListItem href="/about"><a>About</a></NavListItem>
                                 <NavListItem href="/causes"><a>Causes</a></NavListItem>
                                 <NavListItem href="/events"><a>Events</a></NavListItem>
@@ -84,7 +94,8 @@ const Header = () => (
                     <nav className="main-menu">
                         <div className="navbar-collapse collapse clearfix">
                             <ul className="navigation clearfix">
-                                <NavListItem href="/"><a>Home</a></NavListItem>
+                                <li className={router.pathname === '/' ? 'current' : ''}><a href="/">Home</a></li>
+                                {/* <NavListItem href="/"><a>Home</a></NavListItem> */}
                                 <NavListItem href="/about"><a>About</a></NavListItem>
                                 <NavListItem href="/causes"><a>Causes</a></NavListItem>
                                 <NavListItem href="/events"><a>Events</a></NavListItem>
@@ -98,6 +109,6 @@ const Header = () => (
             </div>
         </div>
     </header>
-);
+)};
 
 export default Header;
