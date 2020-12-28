@@ -15,7 +15,8 @@ function MyApp({ Component, pageProps }) {
         <>
             <ThemeProvider theme={theme}>
                 <GlobalStyles />
-            <Header />
+                <Header />
+                <div className="preloader"></div>
             <Component {...pageProps} />
             <Footer />
             </ThemeProvider>
