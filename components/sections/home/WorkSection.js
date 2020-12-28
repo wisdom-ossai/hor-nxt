@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const WorkSection = () => (
     <section className="work-section">
         <div className="inner-container">
@@ -6,7 +8,7 @@ const WorkSection = () => (
                     <div className="inner-box" style={{backgroundImage: "url(images/resource/image-1.jpg)"}}>
                         <h3><a href="services.html">We Empower</a></h3>
                         <div className="text">We organize and execute skill acquisition programs, trainings and seminars to enable beneficiaries become more useful both to self and community</div>
-                        <div className="btn-box"><a href="services.html" className="theme-btn btn-style-three">Read More</a></div>
+                        <div className="btn-box"><Link href="/services"><a className="theme-btn btn-style-three">Read More</a></Link></div>
                     </div>
                 </div>
 
@@ -14,7 +16,7 @@ const WorkSection = () => (
                     <div className="inner-box" style={{backgroundImage: "url(images/resource/image-1.jpg)"}}>
                         <h3><a href="services.html">Give Scholarship</a></h3>
                         <div className="text">Provide financial and moral support to beneficiaries who are willing to further their education but lack the financial capabilities to do so.</div>
-                        <div className="btn-box"><a href="services.html" className="theme-btn btn-style-three">Read More</a></div>
+                        <div className="btn-box"><Link href="/services"><a className="theme-btn btn-style-three">Read More</a></Link></div>
                     </div>
                 </div>
 
@@ -22,7 +24,7 @@ const WorkSection = () => (
                     <div className="inner-box" style={{backgroundImage: "url(images/resource/image-1.jpg)"}}>
                         <h3><a href="services.html">Give Revival</a></h3>
                         <div className="text">Too many broken, wounded, lost and underpriviledged people out there. We find them, reach out to them and bring them into the great family of love.</div>
-                        <div className="btn-box"><a href="services.html" className="theme-btn btn-style-three">Read More</a></div>
+                        <div className="btn-box"><Link href="/services"><a className="theme-btn btn-style-three">Read More</a></Link></div>
                     </div>
                 </div>
             </div>
